@@ -18,7 +18,7 @@ KZG 用于以太坊的 [Proto-Danksharding](https://notes.ethereum.org/@vbuterin
 
 回顾一下多项式承诺方案的假设，我们需要对一些多项式 $P(x)$ 进行承诺。我们假设多项式的阶数小于 $l$.
 
-KZG 承诺依赖于 [椭圆曲线配对](https://vitalik.ca/general/2017/01/14/exploring_ecp.html)。假设 $\mathbb{G}_1$ 和 $\mathbb{G}_2$ 是两个阶为 $p$ 的椭圆曲线群，满足 non-trivial [双线性配对](https://en.wikipedia.org/wiki/Bilinear_map) $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$。假设 $g$ 是群 $\mathbb{G}_1$ 的生成元，$h$ 是群 $\mathbb{G}_2$ 的生成元。我们使用符号表示为 $[x]_1 := x \cdot g$ 和 $[x]_2 := x \cdot h$，其中 $x \in \mathbb{F}_p$.
+KZG 承诺依赖于 [椭圆曲线配对](https://vitalik.eth.limo/general/2017/01/14/exploring_ecp.html)。假设 $\mathbb{G}_1$ 和 $\mathbb{G}_2$ 是两个阶为 $p$ 的椭圆曲线群，满足 non-trivial [双线性配对](https://en.wikipedia.org/wiki/Bilinear_map) $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$。假设 $g$ 是群 $\mathbb{G}_1$ 的生成元，$h$ 是群 $\mathbb{G}_2$ 的生成元。我们使用符号表示为 $[x]_1 := x \cdot g$ 和 $[x]_2 := x \cdot h$，其中 $x \in \mathbb{F}_p$.
 
 ## 1. 可信设置
 
@@ -31,7 +31,7 @@ KZG 承诺依赖于 [椭圆曲线配对](https://vitalik.ca/general/2017/01/14/e
 
 请注意，$\tau$ 不应该被揭示 - 它是可信设置的秘密参数，应在可信设置仪式完成后丢弃，以便没有人知道它的值。
 
-使用[多方计算](https://en.wikipedia.org/wiki/Secure_multi-party_computation) （MPC） 在弱信任假设（N 个信任假设中为 1 个）的情况下，有一些已有的方法来执行可信设置仪式。有关可信设置如何工作的更多信息，请参阅 Vitalik 的这篇[文章](https://vitalik.ca/general/2022/03/14/trustedsetup.html)。
+使用[多方计算](https://en.wikipedia.org/wiki/Secure_multi-party_computation) （MPC） 在弱信任假设（N 个信任假设中为 1 个）的情况下，有一些已有的方法来执行可信设置仪式。有关可信设置如何工作的更多信息，请参阅 Vitalik 的这篇[文章](https://vitalik.eth.limo/general/2022/03/14/trustedsetup.html)。
 
 ## 2. 承诺多项式
 

@@ -18,7 +18,7 @@ Bu makale KZG taahhüt planına genel bir bakış sunacaktır.
 
 Polinom taahhüt şemalarının önermesini hatırlayın. Taahhüt etmek istediğimiz bazı $P(x)$ polinomumuz var. Polinomun derecesinin $l$'dan küçük olduğunu varsayacağız.
 
-KZG taahhütleri [eliptik eğri eşleştirmelerine](https://vitalik.ca/general/2017/01/14/exploring_ecp.html) dayanmaktadır. $\mathbb{G}_1$ ve $\mathbb{G}_2$ $p$ düzeyinde iki eliptik eğri grubu olsun ve önemsiz olmayan bir [çift doğrusal eşleme](https://en.wikipedia.org/wiki/Bilinear_map) olsun. $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$. $g$, $\mathbb{G}_1$ oluşturucusu olsun ve $h$, $\mathbb{G}_2$ oluşturucusu olsun. $[x]_1 := x \cdot g$ ve $[x]_2 := x \cdot h$ gösterimini kullanacağız, burada $x \in \mathbb{F}_p$.
+KZG taahhütleri [eliptik eğri eşleştirmelerine](https://vitalik.eth.limo/general/2017/01/14/exploring_ecp.html) dayanmaktadır. $\mathbb{G}_1$ ve $\mathbb{G}_2$ $p$ düzeyinde iki eliptik eğri grubu olsun ve önemsiz olmayan bir [çift doğrusal eşleme](https://en.wikipedia.org/wiki/Bilinear_map) olsun. $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$. $g$, $\mathbb{G}_1$ oluşturucusu olsun ve $h$, $\mathbb{G}_2$ oluşturucusu olsun. $[x]_1 := x \cdot g$ ve $[x]_2 := x \cdot h$ gösterimini kullanacağız, burada $x \in \mathbb{F}_p$.
 
 ## 1. Güvenilir kurulum
 
@@ -31,7 +31,7 @@ Herhangi bir KZG taahhüdünü hesaplamadan önce tek seferlik güvenilir kurulu
 
 $\tau$'ın açıklanmaması gerektiğini unutmayın; bu, kurulumun gizli bir parametresidir ve güvenilir kurulum töreni tamamlandıktan sonra kimsenin değerini anlayamaması için atılmalıdır.
 
-[Çok taraflı hesaplamayı](https://en.wikipedia.org/wiki/Secure_multi-party_computation) (MPC) kullanarak, zayıf güven varsayımlarıyla (N'den 1'i güven varsayımı) güvenilir kurulum törenleri yürütmenin yerleşik yöntemleri vardır. Güvenilir kurulumların nasıl çalıştığı hakkında daha fazla bilgi için Vitalik'in bu [yazısına](https://vitalik.ca/general/2022/03/14/trustedsetup.html) bakın.
+[Çok taraflı hesaplamayı](https://en.wikipedia.org/wiki/Secure_multi-party_computation) (MPC) kullanarak, zayıf güven varsayımlarıyla (N'den 1'i güven varsayımı) güvenilir kurulum törenleri yürütmenin yerleşik yöntemleri vardır. Güvenilir kurulumların nasıl çalıştığı hakkında daha fazla bilgi için Vitalik'in bu [yazısına](https://vitalik.eth.limo/general/2022/03/14/trustedsetup.html) bakın.
 
 ## 2. Bir polinoma bağlı kalmak
 

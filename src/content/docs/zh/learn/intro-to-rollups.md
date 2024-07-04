@@ -47,5 +47,5 @@ Scroll 是字节码兼容的。之所以选择这种方案，是因为它带来�
 
 ## 延伸阅读
 
-- [Rollups 的不完全指南](https://vitalik.ca/general/2021/01/05/rollup.html) - Vitalik Buterin
+- [Rollups 的不完全指南](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin
 - [扩容](https://ethereum.org/en/developers/docs/scaling/) - 以太坊文档

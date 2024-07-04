@@ -18,7 +18,7 @@ Este artículo dará una visión general del esquema de compromiso KZG.ç
 
 Recordemos la premisa de los esquemas de compromiso polinómico. Tenemos algún polinomio $P(x)$ que nos gustaría comprometer. Asumiremos que el polinomio tiene un grado menor que $l$.
 
-KZG compromisos se basan en una [curva elíptica de pares](https://vitalik.ca/general/2017/01/14/exploring_ecp.html). Sean $\mathbb{G}_1$ y $\mathbb{G}_2$ dos grupos de curvas elípticas de orden $p$, con un no trivial [mapeo bilineal](https://en.wikipedia.org/wiki/Bilinear_map) $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$. Sea $g$ un generador de $\mathbb{G}_1$, y $h$ un generador de $\mathbb{G}_2$. Utilizaremos la notación $[x]_1 := x \cdot g$ y $[x]_2 := x \cdot h$, donde $x \in \mathbb{F}_p$.
+KZG compromisos se basan en una [curva elíptica de pares](https://vitalik.eth.limo/general/2017/01/14/exploring_ecp.html). Sean $\mathbb{G}_1$ y $\mathbb{G}_2$ dos grupos de curvas elípticas de orden $p$, con un no trivial [mapeo bilineal](https://en.wikipedia.org/wiki/Bilinear_map) $e: \mathbb{G}_1 \times \mathbb{G}_2 \rightarrow \mathbb{G}_T$. Sea $g$ un generador de $\mathbb{G}_1$, y $h$ un generador de $\mathbb{G}_2$. Utilizaremos la notación $[x]_1 := x \cdot g$ y $[x]_2 := x \cdot h$, donde $x \in \mathbb{F}_p$.
 
 ## 1. Ceremonia o Trusted Setup
 
@@ -31,7 +31,7 @@ Antes de calcular cualquier compromiso KZG, se debe realizar una única trusted 
 
 Ten en cuenta que $\tau$ no debe ser revelado - es un parámetro secreto de la configuración, y debe ser desechado después de la ceremonia haya sido completada para que nadie pueda averiguar su valor.
 
-Existen métodos establecidos para llevar a cabo trusted setups con suposiciones de confianza débiles (suposición de confianza 1-de-N) utilizando [multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation) (MPC). Para más información sobre cómo funcionan las trusted setups, véase este [post](https://vitalik.ca/general/2022/03/14/trustedsetup.html) de Vitalik.
+Existen métodos establecidos para llevar a cabo trusted setups con suposiciones de confianza débiles (suposición de confianza 1-de-N) utilizando [multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation) (MPC). Para más información sobre cómo funcionan las trusted setups, véase este [post](https://vitalik.eth.limo/general/2022/03/14/trustedsetup.html) de Vitalik.
 
 ## 2. Compromiso con un polinomio
 

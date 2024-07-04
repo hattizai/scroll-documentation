@@ -47,5 +47,5 @@ Scroll'un yaklaşımına ilişkin daha fazla ayrıntı Teknoloji bölümünde bu
 
 ## Daha fazla okumak için
 
-- [Rollup'lar Hakkında Eksik Bir Kılavuz](https://vitalik.ca/general/2021/01/05/rollup.html) - Vitalik Buterin
+- [Rollup'lar Hakkında Eksik Bir Kılavuz](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin
 - [Ölçeklenme](https://ethereum.org/en/developers/docs/scaling/) - Ethereum Dokümanları

@@ -47,5 +47,5 @@ Encontrará más información sobre el enfoque de Scroll en la sección Tecnolog
 
 ## Lecturas adicionales
 
-- [An Incomplete Guide to Rollups](https://vitalik.ca/general/2021/01/05/rollup.html) - Vitalik Buterin
+- [An Incomplete Guide to Rollups](https://vitalik.eth.limo/general/2021/01/05/rollup.html) - Vitalik Buterin
 - [Scaling](https://ethereum.org/en/developers/docs/scaling/) - Ethereum Docs
